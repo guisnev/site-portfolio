@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvedor e Designer</title>
+  <meta name="description" content="Desenvolvedor e UX/UI Designer">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho da pagina -->
+  <header class="header">
+    <img src="./img/marca.svg" alt="desenvolvedor2" width="90" height="38"> <!-- logo -->
+    <nav>
+      <ul class="header-menu"> <!-- Menu -->
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#redes">Redes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- parte principal -->
+  <main class="introducao">
+    <img src="./img/programador2.png" alt="programador" width="360" height="520">
+    <div>
+      <h1>Desenvolvedor &<br>UX/UI Designer</h1>
+      <p>Amo livros📚, filmes 🎥 e praia 🏖️.
+        <br>Desenvolvedor apaixonado por criar experiências digitais intuitivas e envolventes.</p>
+    </div>
+  </main>
+
+  <!-- primeira section (Experiencia) -->
+  <section class="experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+    <div>
+      <p class="experiencia-texto">Desenvolvo pequenos projetos utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Trabalho também no <strong>UX</strong> e <strong>UI Design</strong> dos projetos.</p>
+
+      <div class="projeto">
+        <span class="projeto-ano">2023</span>
+        <h3 class="projeto-titulo">Site mascote Android</h3>
+        <span class="projeto-titulo">Tecnologias</span>
+        <p class="projeto-texto">Site usando html e css contanto a historia do mascote do sistema Android. Site resposivel 
+        <br><br> <a href="https://guisnev.github.io/projeto-android/" target="_blank">Veja o Projeto</a></p>
+        <ul class="projeto-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+
+      <div class="projeto">
+        <span class="projeto-ano">2023</span>
+        <h3 class="projeto-titulo">protótipo portfolio</h3>
+        <span class="projeto-titulo">Tecnologias</span>
+        <p class="projeto-texto">protótipo de um portfolio usando o figma com principios de UX e UI.
+          <br><br> <a href="https://www.figma.com/file/tmaYjUqgjSYU8FeWsBjOvF/projeto-pessoal?type=design&node-id=10%3A0&mode=dev&t=Tjg57g64fJQTYYYU-1" target="_blank">Veja o Projeto</a>
+        </p>
+        <ul class="projeto-habilidades">
+          <li>UX</li>
+          <li>UI</li>
+        </ul>
+      </div>
+
+      <div class="projeto">
+        <span class="projeto-ano">2024</span>
+        <h3 class="projeto-titulo">Animais fantásticos</h3>
+        <span class="projeto-titulo">Tecnologias</span>
+        <p class="projeto-texto">Projeto criado no fim do curso de front-end da origamid.
+          <br><br><a href="https://guisnev.github.io/Projeto-animais-fantastico/">Veja o Projeto</a>
+        </p>
+        <ul class="projeto-habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- segunda section (formação) -->
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
+
+      <div>
+        <p class="formacao-texto">
+          🚀Busco constantemente me atualizar através do conhecimento com as últimas tendências e tecnologias do mercado.
+        </p>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Tecnólogo</span>
+            <h3 class="faculdade-curso">Analise e desenvolvimento de sistemas(Cursando)</h3>
+            <span class="faculdade-instituicao">UNINTER</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade-tipo">Tecnólogo</span>
+            <h3 class="faculdade-curso">Processos gerenciais</h3>
+            <span class="faculdade-instituicao">UNINTER</span>
+          </li>
+          <li class="faculdade">
+            <span class="faculdade-tipo">Intensivo</span>
+            <h3 class="faculdade-curso">Desenvolvedor Fullstack</h3>
+            <span class="faculdade-instituicao">Origamid</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos Extras</h3>
+            <ul>
+              <li>UX Design & UI Design <span>56h</span></li>
+              <li>Front End para Iniciantes <span>72h</span></li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Intermediário</span></li>
+              <li>Espanhol <span>/ Intermediário</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- terceira section (contato) -->
+  <section class="contato" id="contato" aria-label="Contato">
+    <div class="contato-container">
+      <h2 class="subtitulo">Contato</h2>
+        <div class="contato-formulario">
+            <div class="formulario"> <!-- formulario -->
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Digite sua mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- rodapé (redes sociais) -->
+  <footer class="footer" id="redes">
+    <div class="footer-container">
+      <ul class="footer-contato">
+        <li><a href="#"><img src="/img/facebook.png" alt="facebook" width="70" height="38"></a></li>
+        <li><a href="#"><img src="/img/instagram.png" alt="Instagram" width="70" height="38"></a></li>
+        <li><a href="/"><img src="/img/whatsapp.png" alt="Whatsapp" width="70" height="38"></a></li>
+      </ul>
+      <p class="footer-copy">Guilherme. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

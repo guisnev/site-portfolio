@@ -1,0 +1,7 @@
+@import "./global.css"; /* Global */
+@import "./header.css"; /* Cabeçalho */
+@import "./introducao.css"; /* introdução */
+@import "./experiencia.css"; /* Experiencia */
+@import "./formacao.css"; /* Formação*/
+@import "./footer.css"; /* Rodapé */
+@import "./contato.css" /* Contatos */
